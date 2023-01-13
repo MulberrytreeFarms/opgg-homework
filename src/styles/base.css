@@ -10,6 +10,7 @@
   --color-gray-line: #999999;
   --color-white: #ffffff;
   --color-bg-general: #eaeaea;
+  --color-bg-1: #f2f2f2;
   --color-line-1: #d8d8d8;
   --color-font-1: #242929;
   --color-font-2: #555555;
@@ -118,4 +119,7 @@ img {
 }
 html, body, #root {
   height: 100%;
+}
+body {
+  background-color: var(--color-bg-general);
 }
