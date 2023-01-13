@@ -1,4 +1,5 @@
 import UserProfile from '@/components/userProfile'
+import { ScoreBodyStyle } from '@/layouts/style'
 
 const ScorePage = () => {
   return (
@@ -15,6 +16,11 @@ const ScorePage = () => {
           </div>
         </UserProfile.Info>
       </UserProfile>
+
+      <ScoreBodyStyle>
+        <div className="left-wrapper">Left wrapper</div>
+        <div className="right-wrapper">Right wrapper</div>
+      </ScoreBodyStyle>
     </div>
   )
 }
