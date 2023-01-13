@@ -1,4 +1,4 @@
-import '@/styles/App.css'
+import '@/styles/base.css'
 
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 

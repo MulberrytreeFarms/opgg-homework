@@ -1,0 +1,112 @@
+:root {
+  --color-brand: #1ea1f7;
+  --color-primary: #1f8ecd;
+  --color-primary-bg: #7fb0e1;
+  --color-primary-line: #549dc7;
+  --color-danger: #ee5a52;
+  --color-danger-bg: #e89c95;
+  --color-danger-line: #c8817c;
+  --color-white: #ffffff;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+small,
+strong,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+  word-break: keep-all;
+}
+fieldset,
+form {
+  border: 0;
+}
+strong {
+  font-weight: bold;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  cursor: pointer;
+}
+button,
+textarea,
+input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+ol,
+ul,
+dl {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+img {
+  max-width: 100%;
+}
+.blind-heading {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+html, body, #root {
+  height: 100%;
+}
