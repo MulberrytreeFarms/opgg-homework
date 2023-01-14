@@ -1,0 +1,125 @@
+:root {
+  --color-brand: #1ea1f7;
+  --color-primary: #1f8ecd;
+  --color-primary-bg: #7fb0e1;
+  --color-primary-line: #549dc7;
+  --color-danger: #ee5a52;
+  --color-danger-bg: #e89c95;
+  --color-danger-line: #c8817c;
+  --color-gray-bg: #a7a7a7;
+  --color-gray-line: #999999;
+  --color-white: #ffffff;
+  --color-bg-general: #eaeaea;
+  --color-bg-1: #f2f2f2;
+  --color-line-1: #d8d8d8;
+  --color-font-1: #242929;
+  --color-font-2: #555555;
+  --color-font-3: #5e5e5e;
+  --color-font-4: #657070;
+  --color-font-5: #879292;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+small,
+strong,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+  word-break: keep-all;
+}
+fieldset,
+form {
+  border: 0;
+}
+strong {
+  font-weight: bold;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  cursor: pointer;
+}
+button,
+textarea,
+input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+ol,
+ul,
+dl {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+img {
+  max-width: 100%;
+}
+.blind-heading {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+html, body, #root {
+  height: 100%;
+}
+body {
+  background-color: var(--color-bg-general);
+}
